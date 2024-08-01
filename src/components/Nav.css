@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8b400;
+  padding: 1rem;
+}
+
+.nav img {
+  height: 50px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+}

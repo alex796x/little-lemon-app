@@ -1,9 +1,17 @@
-import "./App.css";
+import React from 'react';
+import Header from './components/header';
+import Footer from './components/footer';
+import BookingForm from './components/bookingForm';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Little Lemon App</h1>
+      <Header />
+      <main>
+        <BookingForm />
+      </main>
+      <Footer />
     </div>
   );
 }
